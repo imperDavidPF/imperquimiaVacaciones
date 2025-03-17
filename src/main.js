@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
       // Enviar correo electrónico al supervisor
-      const response = await fetch('http://localhost:3000/send-email', {
+      const response = await fetch('https://backendimpervacaciones.onrender.com/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
